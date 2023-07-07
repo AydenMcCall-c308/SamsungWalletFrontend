@@ -1,0 +1,225 @@
+@font-face {
+    font-family: "SamsungSharpSansBold";
+    src: url("../fonts/SamsungSharpSans-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: bold;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "SamsungSharpSansMedium";
+    src: url("../fonts/SamsungSharpSans-Medium.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  body,
+  p {
+    margin: 0;
+    font-family: "SamsungSharpSansBold";
+  }
+  
+  div {
+    font-family: "SamsungSharpSansMedium";
+  }
+  
+  .samsung-logo {
+    width: 104px;
+    height: 16px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDUiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxMDUgMTYiPg0KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+DQogICAgICAgIDxwYXRoIGQ9Ik0wLjk2NCAwSDEyMS41MDdWMzJIMC45NjR6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtOSAtOCkiLz4NCiAgICAgICAgPHBhdGggZmlsbD0iIzAwMCIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTUuOTM3IDE5LjE4NGMuMTU1LjM2My4xMDQuODI5LjAyNiAxLjExNC0uMTMuNDkyLS40NjYgMS4wMS0xLjQ1IDEuMDEtLjkzMSAwLTEuNS0uNTQ0LTEuNS0xLjM0N3YtMS40NUg5djEuMTRDOSAyMi45OSAxMS42MTQgMjQgMTQuNDM2IDI0YzIuNjkyIDAgNC45MTgtLjkzMiA1LjI4LTMuNDE3LjE4MS0xLjI5NS4wNTItMi4xMjMtLjAyNi0yLjQ2LS42Mi0zLjEzMy02LjI5LTQuMDY1LTYuNzMtNS44LS4wNzctLjMxLS4wNTEtLjYyLS4wMjYtLjc3Ni4xMDQtLjQ2Ni40NC0xLjAxIDEuMzcyLTEuMDEuODggMCAxLjM5OC41NDQgMS4zOTggMS4zNDZ2LjkzM2gzLjcyOHYtMS4wNjJDMTkuNDMyIDguNDkyIDE2LjUwNyA4IDE0LjM4NCA4Yy0yLjY2NiAwLTQuODE1Ljg4LTUuMjI5IDMuMzE0LS4xMDMuNjczLS4xMyAxLjI2OS4wMjYgMi4wMi42NzMgMy4wMjggNS45OCAzLjkwOSA2Ljc1NiA1Ljg1em00OC41MzQtLjAyNWMuMTU1LjM2Mi4xMDMuODI4LjAyNiAxLjA4Ny0uMTMuNDkyLS40NjYuOTg0LTEuNDUuOTg0LS45MzIgMC0xLjQ3NS0uNTQ0LTEuNDc1LTEuMzQ3VjE4LjQ2aC0zLjk2djEuMTM5YzAgMy4yODggMi41ODggNC4yOTcgNS4zODMgNC4yOTcgMi42NjcgMCA0Ljg2Ny0uOTA2IDUuMjMtMy4zOTEuMTgtMS4yNjkuMDUtMi4xMjMtLjAyNy0yLjQzNC0uNjIxLTMuMTA3LTYuMjM4LTQuMDEzLTYuNjUyLTUuNzQ3LS4wNzgtLjMxMS0uMDUyLS42MjItLjAyNi0uNzc3LjEwNC0uNDY2LjQxNC0uOTg0IDEuMzQ2LS45ODQuODU0IDAgMS4zNzIuNTQ0IDEuMzcyIDEuMzQ2di45MDdoMy43MDFWMTEuNzhjMC0zLjIxLTIuODk5LTMuNzI4LTQuOTk1LTMuNzI4LTIuNjE1IDAtNC43NjMuODgtNS4xNzcgMy4yODgtLjEwNC42NDctLjEzIDEuMjQzLjAyNiAxLjk5My42NzMgMy4wMyA1LjkyNyAzLjkxIDYuNjc4IDUuODI2em0zMC45ODQgMS4zMmwtLjIwNy0xMi4wMTNoMy43MDF2MTQuNzU3aC01LjMzMmwtMy43NTMtMTIuNDAxLjIwNyAxMi40MDFoLTMuNjc2VjguNDY2aDUuNTRsMy41MiAxMi4wMTN6TTI4LjMzNSA5LjU1M2wtMi4wNyAxMy44MjZoLTQuMDM4bDIuNzQ0LTE0LjkxM2g2LjY1MmwyLjc0NCAxNC45MTNoLTQuMDEybC0yLjAyLTEzLjgyNnptMjEuNzk2IDBMNDcuNTQyIDIzLjM4aC0zLjc3OUw0MS4yMDEgOS41NTNsLS4xMDQgMTMuODI2SDM3LjM3bC4zMS0xNC45MTNoNi4wODNsMS44OSAxMS42NSAxLjg5LTExLjY1aDYuMDgybC4zMzcgMTQuOTEzaC0zLjcyOGwtLjEwMy0xMy44MjZ6bTI2Ljg2OCAxMS42YzEuMDM1IDAgMS4zNzItLjcyNiAxLjQyNC0xLjA4OC4wMjYtLjE1Ni4wMjYtLjM4OS4wMjYtLjU3VjguNDRoMy43NzlWMTkuMTZjMCAuMjg0LS4wMjYuODI4LS4wMjYuOTgzLS4yNTkgMi43OTctMi40NiAzLjcwMy01LjIwMyAzLjcwMy0yLjc0NCAwLTQuOTQ0LS45MDYtNS4yMDMtMy43MDMtLjAyNi0uMTU1LS4wNTItLjY5OS0uMDI2LS45ODNWOC40NGgzLjc4djExLjA1NWMwIC4xODEgMCAuNDE0LjAyNS41Ny4wNzguMzg4LjM4OSAxLjA4NyAxLjQyNCAxLjA4N3ptMzEuMTY1LS4xNTZjMS4wODcgMCAxLjQ1LS43IDEuNTI3LTEuMDg4LjAyNi0uMTguMDUyLS4zODguMDI2LS41N3YtMi4xNzRoLTEuNTI3VjE0Ljk5aDUuMjh2NC4wMTNjMCAuMjg1IDAgLjQ5Mi0uMDUxLjk4NC0uMjU5IDIuNzE5LTIuNjE1IDMuNjc2LTUuMjU1IDMuNjc2LTIuNjQgMC00Ljk5Ni0uOTU3LTUuMjU0LTMuNjc2LS4wNTItLjQ5Mi0uMDUyLS42OTktLjA1Mi0uOTg0di02LjI5MWMwLS4yNTkuMDI2LS43MjUuMDUyLS45ODQuMzM2LTIuNzk2IDIuNTg4LTMuNjc2IDUuMjU0LTMuNjc2IDIuNjQgMCA0Ljk3Ljg4IDUuMjI5IDMuNjc2LjA1Mi40NjYuMDI2Ljk4NC4wMjYuOTg0di40OTJoLTMuNzh2LS44MjlzMC0uMzYyLS4wNTEtLjU3Yy0uMDc4LS4zMzYtLjM2Mi0xLjA4Ny0xLjUwMS0xLjA4Ny0xLjA4OCAwLTEuMzk4LjcyNS0xLjQ3NiAxLjA4OC0uMDUyLjIwNy0uMDUyLjQ2Ni0uMDUyLjY5OXY2LjgzNWMwIC4xODEgMCAuMzg4LjAyNi41Ny4xMDQuNDE0LjQ5MiAxLjA4NyAxLjU4IDEuMDg3eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTkgLTgpIi8+DQogICAgPC9nPg0KPC9zdmc+DQo=");
+  }
+  
+  .search-icon {
+    height: 24px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiIgaWQ9InNlYXJjaC1ib2xkIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGgNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZD0iTTQwLjU4MSA0LjA5YzIwLjEyNiAwIDM2LjUgMTYuMzc0IDM2LjUgMzYuNWEzNi4zMjUgMzYuMzI1IDAgMDEtNy45NjMgMjIuNzMzbDIyLjggMjIuOTQ4LTUuNjc0IDUuNjM5LTIyLjc2Ny0yMi45MTNhMzYuMzI3IDM2LjMyNyAwIDAxLTIyLjg5NiA4LjA5M2MtMjAuMTI2IDAtMzYuNS0xNi4zNzQtMzYuNS0zNi41czE2LjM3NC0zNi41IDM2LjUtMzYuNXptMCA4Yy0xNS43MTUgMC0yOC41IDEyLjc4NS0yOC41IDI4LjVzMTIuNzg1IDI4LjUgMjguNSAyOC41IDI4LjUtMTIuNzg1IDI4LjUtMjguNS0xMi43ODUtMjguNS0yOC41LTI4LjV6Ij4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3BhdGg+DQogICAgICAgICAgICAgICAgICAgICAgICA8L3N2Zz4=");
+  }
+  
+  .cart-icon {
+    height: 24px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiIgaWQ9ImNhcnQtYm9sZCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgOTYgOTYiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGQ9Ik03Mi44NDggNzAuMjVjNi4wNzUgMCAxMSA0LjkyNSAxMSAxMXMtNC45MjUgMTEtMTEgMTEtMTEtNC45MjUtMTEtMTEgNC45MjUtMTEgMTEtMTF6bS0zNSAwYzYuMDc1IDAgMTEgNC45MjUgMTEgMTFzLTQuOTI1IDExLTExIDExLTExLTQuOTI1LTExLTExYzAtNi4wNzQgNC45MjYtMTEgMTEtMTF6bTM1IDdhNCA0IDAgMTAuMDAyIDguMDAxIDQgNCAwIDAwLS4wMDItOC4wMDF6bS0zNSAwYTQgNCAwIDEwMCA4IDQgNCAwIDAwMC04ek0xMy44OTIgMy43NWMyLjI4NyAwIDQuMzc2IDEuNTUgNS4wNTggMy43MmwuMDY0LjIyIDIuOTcgMTEuMTg3aDY4LjEyOGE0LjcyNyA0LjcyNyAwIDAxNC42NjEgNS43ODZsLS4wNDguMi05LjU1OSAzNi4yOTFjLS41ODMgMi4yMTYtMi42MTggMy44NDItNC44OTQgMy45NDRsLS4yMjguMDA1SDMwLjA2Yy0yLjI4NyAwLTQuMzc3LTEuNTUtNS4wNi0zLjcybC0uMDYzLS4yMTktMTMuMTI0LTQ5LjQxMy0xMC43LjAwNi0uMDA0LTggMTIuNzgyLS4wMDd6bTcyLjAzIDIzLjEyN0gyNC4xMDhsOC4wMjcgMzAuMjI2SDc3Ljk2bDcuOTYyLTMwLjIyNnoiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcGF0aD4NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvc3ZnPg==");
+  }
+  
+  .menu-icon {
+    height: 24px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiIgaWQ9Im1lbnUtYm9sZCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgOTYgOTYiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik04MyA3MHY4SDEzdi04aDcwem0wLTI2djhIMTN2LThoNzB6bTAtMjZ2OEgxM3YtOGg3MHoiPjwvcGF0aD4NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvc3ZnPg==");
+  }
+  
+  .nav-bar {
+    max-width: 680px;
+    margin: 0 auto;
+    background: #fff;
+    box-sizing: content-box;
+    height: 56px;
+  }
+  
+  .nav-bar-inner {
+    font-size: 0;
+    padding: 16px 16px;
+  }
+  
+  .nav-bar-logo {
+    float: left;
+    display: table-cell;
+  }
+  
+  .nav-bar-menu {
+    display: block;
+    float: right;
+    margin: -4px 0;
+  }
+  
+  .nav-bar-menu-item {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-left: 16px;
+  }
+  
+  .main-title {
+    text-align: center;
+    font-size: 1.6rem;
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+  
+  .contents {
+    height: auto;
+    background-color: #000f7f;
+    position: relative;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .samsung-air-container > .contents {
+    background-color: #000f7f;
+  }
+  
+  .samsung-ticket-container > .contents {
+    background-color: #ffb304;
+  }
+  
+  .samsung-coupon-container > .contents {
+    background-color: #dc4482;
+  }
+  
+  .thumbnail {
+    background-color: darkgray;
+    background-image: url("https://kr-cdn-gpp.stg.mcsvc.samsung.com/devops/ops/partner-portal/test-tool/assets/img/coupon-ice-cream-blue.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: content-box;
+    margin: 0 auto;
+  }
+  
+  .contents-item {
+    position: relative;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 680px;
+    box-sizing: content-box;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  .contents-item .title {
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  .contents-item .content {
+    font-size: 25px;
+    text-align: left;
+  }
+  
+  .contents-item.trip {
+    height: 80px;
+    margin-top: 0px;
+  }
+  
+  .contents-item.trip .title {
+    font-size: 17px;
+    text-align: center;
+    color: #000f7f;
+  }
+  
+  .contents-item.trip .content {
+    font-size: 55px;
+    text-align: center;
+  }
+  
+  .theater-container {
+    perspective: 1000px;
+  }
+  
+  .seats {
+    margin: 0 auto;
+    width: fit-content;
+  }
+  
+  .seat {
+    background-color: #454545;
+    height: 24px;
+    width: 30px;
+    margin: 3px;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .seat.soldout {
+    background-color: #a0a0a0;
+  }
+  
+  .seat.selected {
+    background-color: #ffb304;
+  }
+  
+  .seat:nth-of-type(1) {
+    margin-right: 18px;
+  }
+  
+  .seat:nth-last-of-type(2) {
+    margin-left: 18px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .screen {
+    background-color: #454545;
+    height: 60px;
+    width: 100%;
+    margin: 15px 0;
+    transform: rotateX(-48deg);
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(45, 45, 45, 0.7);
+  }
+  
+  .samsung-coupon-container .title {
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .samsung-coupon-container .content {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  #TARGET_ID {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
